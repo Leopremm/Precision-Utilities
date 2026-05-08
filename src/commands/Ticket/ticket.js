@@ -153,17 +153,17 @@ const panelMessage = interaction.options.getString("panel_message") || "Click th
 const dmOnClose = interaction.options.getBoolean("dm_on_close") !== false;
 
             const setupEmbed = createEmbed({ 
-                title: "🎫 Support Tickets", 
+                title: "Assistance", 
 description: panelMessage,
                 color: getColor('info')
             });
 
             const ticketButton = new ActionRowBuilder().addComponents(
                 new ButtonBuilder()
-                    .setCustomId("create_ticket")
+                    .setCustomId("Support")
 .setLabel(buttonLabel)
                     .setStyle(ButtonStyle.Primary)
-                    .setEmoji("📩"),
+                    .setEmoji(""),
             );
 
             try {
