@@ -91,7 +91,7 @@ const appConfig = {
     welcome: true,                  
 
     
-    tickets: true,                  
+    tickets: false,                  
     giveaways: true,                
     birthday: true,                 
     counter: true,                  
